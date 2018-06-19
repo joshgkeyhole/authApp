@@ -1,0 +1,30 @@
+{
+  "name": "authapp",
+  "version": "1.0.0",
+  "description": "MEAN stack authentication app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies":{
+    "express":"*",
+    "mongoose":"*",
+    "bcyrptjs":"*",
+    "cors":"*",
+    "jsonwebtoken":"*",
+    "body-parser":"*",
+    "passport":"*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshgkeyhole/authApp.git"
+  },
+  "author": "Josh Green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshgkeyhole/authApp/issues"
+  },
+  "homepage": "https://github.com/joshgkeyhole/authApp#readme"
+}
